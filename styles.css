@@ -1,0 +1,29 @@
+.scroll2,
+.scroll {
+    background-image: url('assets/ar.png');
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    border: 0;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: auto !important;
+    /* we arrive opacity from 0 to 1 with transition: ; */
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.scroll2.show,
+.scroll.show {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.scroll2 {
+    background-color: green;
+    left: 20px;
+}
